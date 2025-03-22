@@ -1,4 +1,3 @@
-
 import { cn } from '@/lib/utils';
 import React, { useEffect, useState } from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
@@ -85,7 +84,7 @@ export const SidebarWrapper: React.FC<SidebarWrapperProps> = ({ children }) => {
   return (
     <SidebarProvider>
       <div className="flex min-h-screen w-full">
-        <SidebarPrimitive defaultCollapsed={isCollapsed} className="transition-all duration-300">
+        <SidebarPrimitive className="transition-all duration-300">
           <SidebarHeader className="border-b border-border/50 p-4">
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-2">
