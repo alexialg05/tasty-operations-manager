@@ -84,7 +84,7 @@ const Dashboard: React.FC = () => {
         <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
           <div>
             <ChipBadge variant="primary">Dashboard</ChipBadge>
-            <h1 className="text-3xl font-bold tracking-tight mt-1">Restaurant Overview</h1>
+            <h1 className="text-3xl font-bold tracking-tight mt-1">Restaurant Dashboard</h1>
           </div>
           <div className="text-sm text-muted-foreground">
             {new Date().toLocaleDateString('en-US', { 
