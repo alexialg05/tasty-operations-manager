@@ -1,5 +1,5 @@
+
 import React from 'react';
-import { motion } from 'framer-motion';
 import { cn } from '@/lib/utils';
 
 interface CardProps extends React.HTMLAttributes<HTMLDivElement> {
@@ -14,7 +14,7 @@ const Card: React.FC<CardProps> = React.forwardRef<HTMLDivElement, CardProps>(
     };
 
     return (
-      <motion.div
+      <div
         ref={ref}
         className={cn(cardVariants[variant], className)}
         {...props}
